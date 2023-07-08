@@ -1,0 +1,258 @@
+*
+{
+    margin: 0 auto;
+    padding: 0;
+}
+.mynav
+{
+    width: 100%;
+    height: 50px;
+    background-color: #202020;
+    display:flex;
+}
+.mynav section
+{
+    margin-left: 100px;
+}
+.mynav a 
+{
+text-align: center;
+line-height: 50px;
+color: white;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: none;
+}
+.mynav img
+{
+    width: 100%;
+    height: 50px;   
+}
+.imga
+{ 
+    width: 30px !important;
+    height: 30px !important;
+    margin-right: 0;
+}
+.marr
+{
+    margin-right: 50PX;
+    margin-left: 0% !important;
+}
+.navb
+{
+    width: 100%;
+    height: 35px;
+    background-color: #202020;
+    display:flex;
+    list-style-type: none;
+}
+.navb a
+{
+    text-align: center;
+    line-height: 35px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.promo_nav
+{
+    width: 100%;
+    height: 35px;
+    background-color:#111111;
+    display:flex;
+    list-style-type: none;
+}
+.promo_nav section
+{
+    text-align: center;
+    line-height: 35px;
+    color:white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    
+}
+.promo_nav img
+{
+    width: 100%;
+    height: 35px;
+}
+.pikalogo
+{ 
+    width: 50px !important;
+    height: 35px !important;
+    margin-left: 0;
+}
+.marl
+{
+    margin-right: 0PX !important;
+    margin-left: 500px !important;
+}
+.main
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+
+}
+.slider
+{
+    width: 600px;
+    height: 500px;
+    overflow: hidden;
+}
+.slider img
+{
+    width:600px;
+    height: 500px;
+    float: left;
+}
+.slider section
+{
+    width: 3000px;
+    height: 500px;
+    position: relative;
+    animation:avg 10s alternate infinite;
+}
+@keyframes avg{
+    0%{left:0px;}
+    15%{left:0px;}
+    20%{left:-600px;}
+    35%{left:-600px;}
+    40%{left:-1200px;}
+    55%{left:-1200px;}
+    60%{left:-1800px;}
+    75%{left:-1800px;}
+    80%{left:-2400px;}
+    95%{left:-2400px;}
+    100%{left:-3000px;}
+ }
+
+.sug
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.sug section
+{
+    width: 150px;
+    height: 400px;
+    /* overflow: hidden; */
+    position: relative;
+    margin: 0%;
+    box-sizing: border-box;
+    flex: 1;
+}
+.sug img
+{
+    width: 100%;
+    height: 100%;
+   
+
+}
+.sug section div
+{
+    padding: 5px;
+    border: 1px solid black;
+    width: 200px;
+    height: 400px;
+    position: relative;
+    margin-top: 250px;
+    transition-duration: 500ms
+
+
+}
+.sug section:hover 
+{
+    transform: scale(1.1,1.1);
+    transition-duration: 500ms;
+    box-shadow: 0px 2px 5px black;
+    z-index: 1;
+    overflow: hidden;
+} 
+.sug p
+{
+    color: red;
+    text-align: center;
+   text-transform: uppercase;
+}
+
+.more
+{
+    width: 100%;
+    height: 100px;
+    background-color: #707070;
+    text-align: center;
+    line-height: 100px;
+}
+.more a
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.more a:hover
+{
+
+    background-color: red;
+    font-size: xx-large;
+
+}
+.foot
+{
+    width: 100%;
+    height: 100px;
+    background-color: #202020;
+    display: flex;
+   
+
+}
+.foot img
+{
+    width: 50px;
+    height:75px;
+    flex: 2;
+}
+.foot section
+{
+    margin-top: 20px;
+
+   
+}
+.foot ul
+{
+    list-style-type: none;
+}
+.foot a
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+}
+.foot a:hover
+{
+    color: red;
+}
+.endf
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: #202020;
+    list-style-type: none;
+}
+.endf a
+{
+    color: #707070;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
